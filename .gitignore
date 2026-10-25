@@ -1,0 +1,24 @@
+# Visual Studio files
+.vs/
+*.obj
+*.tlog
+*.log
+*.idb
+*.pdb
+*.iobj
+*.ipdb
+*.ipch
+*.pch
+*.res
+*.lastbuildstate
+*.unsuccessfulbuild
+*.vcxproj.user
+
+# Build intermediate directories
+Source Code/Cheat/V0.0.0/Oblivion/Oblivion/
+Source Code/Cheat/V0.0.0/Oblivion/x64/
+Source Code/Loader/V1/Loader/Loader/
+Source Code/Loader/V1/Loader/x64/
+
+# Keep precompiled release artifact for the loader
+!Backends/Loader/Oblivion.exe

@@ -32,15 +32,15 @@ public:
     static constexpr const char* SOUND_PATH = "C:\\Oblivion\\Resources\\Sounds\\Click.wav";
 
     static constexpr const char* URL_STATUS =
-        "https://raw.githubusercontent.com/sn0fla/Oblivion/main/Backends/Loader/Status.txt";
+        "https://raw.githubusercontent.com/Bennydergoat/Oblivion/main/Backends/Loader/Status.txt";
     static constexpr const char* URL_INFO =
-        "https://raw.githubusercontent.com/sn0fla/Oblivion/main/Backends/Loader/Information.txt";
+        "https://raw.githubusercontent.com/Bennydergoat/Oblivion/main/Backends/Loader/Information.txt";
     static constexpr const char* URL_CHANGELOGS =
-        "https://raw.githubusercontent.com/sn0fla/Oblivion/main/Backends/Loader/Changelogs.txt";
+        "https://raw.githubusercontent.com/Bennydergoat/Oblivion/main/Backends/Loader/Changelogs.txt";
     static constexpr const char* URL_OBLIVION_EXE =
-        "https://raw.githubusercontent.com/sn0fla/Oblivion/main/Backends/Loader/Oblivion.exe";
+        "https://raw.githubusercontent.com/Bennydergoat/Oblivion/main/Backends/Loader/Oblivion.exe";
     static constexpr const char* URL_CLICK_SOUND =
-        "https://raw.githubusercontent.com/sn0fla/Oblivion/main/Backends/Resources/Sounds/Click.wav";
+        "https://raw.githubusercontent.com/Bennydergoat/Oblivion/main/Backends/Resources/Sounds/Click.wav";
 
     static constexpr const char* LOCAL_VERSION = "0.0";
 

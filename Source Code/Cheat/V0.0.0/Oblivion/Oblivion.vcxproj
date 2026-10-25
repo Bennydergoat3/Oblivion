@@ -129,7 +129,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Oblivion Development\Cheat\V0.0.0\Oblivion\Source Code\External\Xorstr;C:\Oblivion Development\Cheat\V0.0.0\Oblivion\Source Code\External\ImGUI;C:\Oblivion Development\Cheat\V0.0.0\Oblivion;C:\Oblivion Development\Cheat\V0.0.0\Oblivion\Source Code\External;C:\Oblivion Development\Cheat\V0.0.0\Oblivion\Source Code\External\Image;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source Code\External\Xorstr;$(ProjectDir)Source Code\External\ImGUI;$(ProjectDir);$(ProjectDir)Source Code\External;$(ProjectDir)Source Code\External\Image;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -155,14 +155,13 @@
     <ClInclude Include="Source Code\Core\Overlay\Overlay.hpp" />
     <ClInclude Include="Source Code\Core\Protection\Protection.hpp" />
     <ClInclude Include="Source Code\Core\Render\Render.hpp" />
-    <ClInclude Include="Source Code\Core\UI\Animations\Animations.hpp" />
-    <ClInclude Include="Source Code\Core\UI\Framework\Framework.hpp" />
-    <ClInclude Include="Source Code\Core\UI\Layout\Layout.hpp" />
-    <ClInclude Include="Source Code\Core\UI\UI.hpp" />
-    <ClInclude Include="Source Code\Core\UI\UI_Cards.hpp" />
-    <ClInclude Include="Source Code\Core\UI\UI_Header.hpp" />
-    <ClInclude Include="Source Code\Core\UI\UI_Internal.hpp" />
-    <ClInclude Include="Source Code\Core\UI\UI_Stars.hpp" />
+    <ClCompile Include="Source Code\Core\Features\Combat\Aimbot\Aimbot.cpp" />
+    <ClCompile Include="Source Code\Core\Features\Visuals\Player\ESP\Offscreen\Offscreen.cpp" />
+    <ClCompile Include="Source Code\Core\GUI\Animations\Animations.cpp" />
+    <ClCompile Include="Source Code\Core\GUI\Framework\Framework.cpp" />
+    <ClCompile Include="Source Code\Core\GUI\GUI.cpp" />
+    <ClCompile Include="Source Code\Core\GUI\Widgets\Widgets.cpp" />
+    <ClCompile Include="Source Code\Utilities\Logging\Logging.cpp" />
     <ClInclude Include="Source Code\External\Image\stb_image.h" />
     <ClInclude Include="Source Code\External\ImGUI\imconfig.h" />
     <ClInclude Include="Source Code\External\ImGUI\imgui.h" />
@@ -220,15 +219,6 @@
     <ClCompile Include="Source Code\Core\Overlay\Overlay.cpp" />
     <ClCompile Include="Source Code\Core\Protection\Protection.cpp" />
     <ClCompile Include="Source Code\Core\Render\Render.cpp" />
-    <ClCompile Include="Source Code\Core\UI\Animations\Animations.cpp" />
-    <ClCompile Include="Source Code\Core\UI\Framework\Framework.cpp" />
-    <ClCompile Include="Source Code\Core\UI\Layout\Layout.cpp" />
-    <ClCompile Include="Source Code\Core\UI\UI.cpp" />
-    <ClCompile Include="Source Code\Core\UI\UI_Cards.cpp" />
-    <ClCompile Include="Source Code\Core\UI\UI_Header.cpp" />
-    <ClCompile Include="Source Code\Core\UI\UI_Helpers.cpp" />
-    <ClCompile Include="Source Code\Core\UI\UI_Internal.cpp" />
-    <ClCompile Include="Source Code\Core\UI\UI_Stars.cpp" />
     <ClCompile Include="Source Code\External\ImGUI\imgui.cpp" />
     <ClCompile Include="Source Code\External\ImGUI\imgui_draw.cpp" />
     <ClCompile Include="Source Code\External\ImGUI\imgui_impl_dx11.cpp" />
